@@ -41,6 +41,8 @@ public class AllCurrencyCon {
         // cevrilen tutar screenShot olarak kaydedilir
         File screenshot=driver.getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(screenshot,new File("screnshot.jpg"));
+        //Manuel ScreenShot almak icin bunu kullandık
+        //Bir de Target altinda tarih ve saatli olusturduk o da ReusableMethods icin de almak icin bunu kullandık
 
         ReusableMethods.getScreenshot("SonucScreenShot");
 
