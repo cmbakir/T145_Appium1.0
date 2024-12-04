@@ -19,7 +19,7 @@ public class APKYukleme {
         caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android"); //isletim sistemi
         caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10.0"); //versiyonu biz 10 sectik
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");//android kullandigimiz icin UiAutomator2, IOS icin XCUITest kullanilir
-        caps.setCapability(MobileCapabilityType.APP, "C:\\Users\\elifk\\IdeaProjects\\T145_Appium\\Apps\\all-currency-converter-3-9-0 (1).apk");
+        caps.setCapability(MobileCapabilityType.APP, "/Users/copperdevil/IdeaProjects/T145_Appium/Apps/all-currency-converter-3-9-0 (1).apk");
 
         driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), caps);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
